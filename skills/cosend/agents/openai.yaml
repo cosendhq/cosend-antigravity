@@ -1,0 +1,10 @@
+interface:
+  display_name: "Cosend"
+  short_description: "Run your business's WhatsApp inbox, campaigns, templates, automation and AI receptionist"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "cosend"
+      description: "Cosend MCP server for the WhatsApp inbox, campaigns, templates, automation and AI receptionist"
+      transport: "streamable_http"
+      url: "https://mcp.cosend.app/mcp"
